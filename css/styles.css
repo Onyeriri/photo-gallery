@@ -159,7 +159,6 @@ header > p {
   border: 2px solid #FFC800;
   border-radius: 10px;
   color: #FFF;
-  margin-top: .9em;
   background-color: #7A7D7D;
   text-align: center;
   height: auto;
@@ -168,6 +167,15 @@ header > p {
   padding: 0 1em;
 }
 
+#description, #close, #second_description_one, #second_close {
+  display: none;
+}
+
+/* footer css rule */
+.instagram {
+  width: 10em;
+  height: 10em;
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -183,10 +191,6 @@ header > p {
     height: auto;
     margin: 0;
   }
-}
-
-#description, #close {
-  display: none;
 }
 
 
