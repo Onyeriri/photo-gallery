@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200&family=Noto+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href='https://css.gg/instagram.css' rel='stylesheet'>
   <link rel="stylesheet" href="./css/styles.css">
   <title>Photo gallery</title>
 </head>
@@ -48,12 +49,31 @@
     </section>
 
     <!-- Second card section -->
-    <section>
-      <div>
-        <h2></h2>
+    <section class="first_card">
+      <div class="card_one">
+        <div class="card_one_flex">
+        <h2>Section 2 page</h2>
+        <button id="second_one_btn" class="btn" onclick="secondToggleDescription()">Open description.</button>
       </div>
-      <div>
-        <h2></h2>
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde facilis ab eum natus culpa earum, blanditiis, quo odio mollitia ducimus reiciendis nulla magnam. Ratione quod eius assumenda, voluptate eveniet dicta!
+        </div>
+        <div id="second_description_one">
+          <hr>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis deserunt saepe minus dolor tempore nulla dolorem alias in ex, aliquam repellat quo, architecto ipsum, assumenda adipisci cupiditate error velit!
+        </div>
+      </div>
+      <div class="card_two">
+        <div class="card_one_flex">
+        <h2>Photo gallery</h2>
+        <button id="second_two_btn" class="btn" onclick="SecondCloseDescription()">Open description.</button>
+      </div>
+        <div>
+          Lorem idivsum dolor sit amet consectetur adipisicing elit. Assumenda velit, eius aliquid sint ipsam ab mollitia reiciendis? Voluptatem, ipsum nobis ea laborum sit corporis accusamus harum rerum reiciendis a? Dolorum!
+        </div>
+        <div id="second_close">
+          <hr>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis deserunt saepe minus dolor tempore nulla dolorem alias in ex, aliquam repellat quo, architecto ipsum, assumenda adipisci cupiditate error velit!
+        </div>
       </div>
     </section>
 
@@ -68,7 +88,7 @@
     </section>
 
     <!-- Footer section -->
-    <footer></footer>
+    <footer><i class="gg-instagram instagram"></i></footer>
   </div>
   <script src="/script/script.js"></script>
 </body>
