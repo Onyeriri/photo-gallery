@@ -1,0 +1,167 @@
+/* 
+google fonts used in this project
+font-family: 'Anton', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Noto Serif', serif;
+ */
+
+ /* css reset */
+ * {
+  box-sizing: border-box;
+ }
+
+ body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+margin: 0; padding: 0; border: 0; outline: none;
+}
+ 
+body
+{
+line-height: 1.5em;
+font-size: 88%;
+text-align: justify;
+/* padding: 1em; */
+}
+ 
+h1, h2, h3, h4, h5, h6
+{
+font-size: 100%;
+padding: .6em 0;
+text-transform: uppercase;
+}
+ 
+ul, ol
+{
+list-style: none;
+}
+ 
+a
+{
+color: black;
+text-decoration: none;
+}
+ 
+a:hover
+{
+text-decoration: underline;
+}
+ 
+.floatLeft
+{
+float: left;
+padding: .5em .5em .5em 0;
+}
+ 
+.floatRight
+{
+float: right;
+padding: .5em 0 .5em .5em;
+}
+
+/* container css rule */
+.container {
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  background-color: #AEB8FE;
+}
+
+/* first card rules */
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+
+  cursor: pointer;
+  margin-top: .5em;
+  
+}
+
+.first_card {
+  display: flex;
+  flex-direction: column;
+  background-color: #BBE5ED;
+  width: 100%;
+}
+.card_one, .card_two {
+  width: 90%;
+  height: 100%;
+  border: 3px solid #4D8B31;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-repeat: non-repeat;
+  background-size:100%;
+  background-position: center;
+  color: #EDF7F6;
+}
+.card_one {
+  /* background-color: #FFB86F; */
+  background-image: url('/images/pexels-hasan-albari-1229861.jpg');
+}
+
+.card_two {
+  margin-top: .8em;
+  background-image: url('/images/dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg');
+}
+
+.card_one_flex {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.btn {
+  border: 2px solid #FFC800;
+  border-radius: 10px;
+  height: 20px;
+  color: #FFF;
+  margin-top: .9em;
+  background-color: #7A7D7D;
+  text-align: center;
+}
+
+/* .btn:hover {
+  color: #710000;
+} */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .first_card {
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+
+  .card_one, .card_two {
+    width: 45%;
+    height: auto;
+    margin: 0;
+  }
+}
+
+#description, #close {
+  display: none;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
