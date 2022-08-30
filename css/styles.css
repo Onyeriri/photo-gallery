@@ -67,19 +67,31 @@ padding: .5em 0 .5em .5em;
   background-color: #AEB8FE;
 }
 
-/* first card rules */
-.material-symbols-sharp {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-
-  cursor: pointer;
-  margin-top: .5em;
-  
+/* header css rules */
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #403F4C;
+  color: #EDF7F6;
+  height: auto;
+  padding-bottom: 1em;
 }
 
+header > h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  letter-spacing: .5em;
+  font-weight: 200;
+}
+
+header > p {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: .2em;
+  /* margin-bottom: 5em; */
+  font-size: 1.1em;
+}
+
+/* first card rules */
 .first_card {
   display: flex;
   flex-direction: column;
