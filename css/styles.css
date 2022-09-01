@@ -64,8 +64,7 @@ padding: .5em 0 .5em .5em;
   margin: 0 auto;
   width: 80%;
   height: auto;
-  background-color: #AEB8FE;
-  height: 100vh;
+  height: auto;
 }
 
 /* header css rules */
@@ -88,7 +87,6 @@ header > h1 {
 header > p {
   font-family: 'Dosis', sans-serif;
   letter-spacing: .2em;
-  /* margin-bottom: 5em; */
   font-size: 1.1em;
   font-weight: 600;
 }
@@ -97,7 +95,6 @@ header > p {
 .first_card {
   display: flex;
   flex-direction: column;
-  background-color: #BBE5ED;
   width: 100%;
   padding: 1em 0;
 }
@@ -109,7 +106,6 @@ header > p {
 #card_one_btn, #card_two_btn {
   font-family: 'Dosis', sans-serif;
   letter-spacing: .2em;
-  /* margin-bottom: 5em; */
   font-size: .8em;
   font-weight: 600;
   padding: 0;
@@ -118,8 +114,8 @@ header > p {
 .card_one, .card_two {
   width: 90%;
   height: 100%;
-  border: 3px solid #4D8B31;
-  border-radius: 10px;
+  border: 2px solid #FFC800;
+  border-radius: 20px;
   margin: 0 auto;
   background-repeat: non-repeat;
   background-size:100%;
@@ -127,12 +123,6 @@ header > p {
   color: #EDF7F6;
 
 }
-
-/* .first_card > p {
-  font-family: 'Dosis', sans-serif;
-  letter-spacing: .2em;
-  font-size: 1.1em;
-} */
 
 .first_card > div {
   font-family: 'Dosis', sans-serif;
@@ -142,8 +132,9 @@ header > p {
   padding: .5em;
   
 }
+
+/* section one card css rules */
 .card_one {
-  /* background-color: #FFB86F; */
   background-image: url('/images/pexels-hasan-albari-1229861.jpg');
 }
 
@@ -152,6 +143,21 @@ header > p {
   background-image: url('/images/dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg');
 }
 
+#sec_two_one {
+  background-image: url('/images/download.jpg');
+}
+
+#sec_two_two {
+  background-image: url('/images/download\ 2.jpg');
+}
+
+#sec_three_one {
+  background-image: url('/images/download\ 3.jpg');
+}
+
+#sec_three_two {
+  background-image: url('/images/download\ 4.jpg');
+}
 .card_one_flex {
   display: flex;
   justify-content: space-around;
@@ -170,7 +176,10 @@ header > p {
   padding: 0 1em;
 }
 
-#description, #close, #second_description_one, #second_close {
+#description, 
+#close, 
+#second_description_one, #second_close, #third_description_one, 
+#third_close {
   display: none;
 }
 
@@ -207,8 +216,12 @@ footer > ul {
 
   .card_one, .card_two {
     width: 45%;
-    height: auto;
+    height: 250px;
     margin: 0;
+  }
+
+  footer > ul {
+    width: 20%;
   }
 }
 
