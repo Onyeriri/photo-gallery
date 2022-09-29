@@ -1,141 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200&family=Noto+Serif&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link href='https://css.gg/instagram.css' rel='stylesheet'>
-  <link rel="stylesheet" href="./css/styles.css">
-  <script src="https://kit.fontawesome.com/fa9ce4128a.js" crossorigin="anonymous"></script>
-  <link rel="icon" type="image/png" sizes="256x256" href="/favicon/android-chrome-256x256.png">
-  <title>Photo gallery</title>
-</head>
-<body>
-  <!-- Header section -->
-  <header>
-    <h1>Photo Gallery</h1>
-    <p>This web application displays six cards showing my favorite projects</p>
-  </header>
-  <div class="container">
-    <!-- First card section -->
-    <section class="first_card">
-      <div class="card_one">
-        <div class="card_one_flex">
-        <h2>Tribute page</h2>
-        <button id="card_one_btn" class="btn" onclick="toggleDescription()">Open description.</button>
-      </div>
-        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde facilis ab eum natus culpa earum, blanditiis, quo odio mollitia ducimus reiciendis nulla magnam. Ratione quod eius assumenda, voluptate eveniet dicta!
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200&family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link href="https://css.gg/instagram.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fa9ce4128a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="256x256"
+      href="/favicon/android-chrome-256x256.png"
+    />
+    <title>Photo gallery</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <h1>Photo Gallery</h1>
+      <p>
+        This web application displays six cards showing my favorite projects
+      </p>
+    </header>
+    <div class="container">
+      <!-- First card section -->
+      <section class="first_card">
+        <div class="card_one">
+          <div class="card_one_flex">
+            <h2>Hobby page</h2>
+            <button id="card_one_btn" class="btn" onclick="toggleDescription()">
+              Open description.
+            </button>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+            facilis ab eum natus culpa earum, blanditiis, quo odio mollitia
+            ducimus reiciendis nulla magnam. Ratione quod eius assumenda,
+            voluptate eveniet dicta!
+          </p>
+          <div id="description">
+            <hr />
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              officiis deserunt saepe minus dolor tempore nulla dolorem alias in
+              ex, aliquam repellat quo, architecto ipsum, assumenda adipisci
+              cupiditate error velit!
+            </p>
+          </div>
         </div>
-        <div id="description">
-          <hr>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis deserunt saepe minus dolor tempore nulla dolorem alias in ex, aliquam repellat quo, architecto ipsum, assumenda adipisci cupiditate error velit!
+        <div class="card_two">
+          <div class="card_one_flex">
+            <h2>Photo gallery</h2>
+            <button id="card_two_btn" class="btn" onclick="closeDescription()">
+              Open description.
+            </button>
+          </div>
+          <p class="text">
+            Lorem idivsum dolor sit amet consectetur adipisicing elit. Assumenda
+            velit, eius aliquid sint ipsam ab mollitia reiciendis? Voluptatem,
+            ipsum nobis ea laborum sit corporis accusamus harum rerum reiciendis
+            a? Dolorum!
+          </p>
+          <div id="close">
+            <hr />
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              officiis deserunt saepe minus dolor tempore nulla dolorem alias in
+              ex, aliquam repellat quo, architecto ipsum, assumenda adipisci
+              cupiditate error velit!
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card_two">
-        <div class="card_one_flex">
-        <h2>Photo gallery</h2>
-        <button id="card_two_btn" class="btn" onclick="closeDescription()">Open description.</button>
-      </div>
-        <div>
-          Lorem idivsum dolor sit amet consectetur adipisicing elit. Assumenda velit, eius aliquid sint ipsam ab mollitia reiciendis? Voluptatem, ipsum nobis ea laborum sit corporis accusamus harum rerum reiciendis a? Dolorum!
-        </div>
-        <div id="close">
-          <hr>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis deserunt saepe minus dolor tempore nulla dolorem alias in ex, aliquam repellat quo, architecto ipsum, assumenda adipisci cupiditate error velit!
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Second card section -->
-    <section class="first_card">
-      <div class="card_one" id="sec_two_one">
-        <div class="card_one_flex">
-        <h2>Section 2 page</h2>
-        <button id="second_one_btn" class="btn" onclick="secondToggleDescription()">Open description.</button>
-      </div>
-        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde facilis ab eum natus culpa earum, blanditiis, quo odio mollitia ducimus reiciendis nulla magnam. Ratione quod eius assumenda, voluptate eveniet dicta!
+      <!-- Second card section -->
+      <section class="first_card">
+        <div class="card_one" id="sec_two_one">
+          <div class="card_one_flex">
+            <h2>Movie data</h2>
+            <button
+              id="second_one_btn"
+              class="btn"
+              onclick="secondToggleDescription()"
+            >
+              Open description.
+            </button>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+            facilis ab eum natus culpa earum, blanditiis, quo odio mollitia
+            ducimus reiciendis nulla magnam. Ratione quod eius assumenda,
+            voluptate eveniet dicta!
+          </p>
+          <div id="second_description_one">
+            <hr />
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              officiis deserunt saepe minus dolor tempore nulla dolorem alias in
+              ex, aliquam repellat quo, architecto ipsum, assumenda adipisci
+              cupiditate error velit!
+            </p>
+          </div>
         </div>
-        <div id="second_description_one">
-          <hr>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis deserunt saepe minus dolor tempore nulla dolorem alias in ex, aliquam repellat quo, architecto ipsum, assumenda adipisci cupiditate error velit!
+        <div class="card_two" id="sec_two_two">
+          <div class="card_one_flex">
+            <h2>Comment box</h2>
+            <button
+              id="second_two_btn"
+              class="btn"
+              onclick="SecondCloseDescription()"
+            >
+              Open description.
+            </button>
+          </div>
+          <p class="text">
+            Lorem idivsum dolor sit amet consectetur adipisicing elit. Assumenda
+            velit, eius aliquid sint ipsam ab mollitia reiciendis? Voluptatem,
+            ipsum nobis ea laborum sit corporis accusamus harum rerum reiciendis
+            a? Dolorum!
+          </p>
+          <div id="second_close">
+            <hr />
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              officiis deserunt saepe minus dolor tempore nulla dolorem alias in
+              ex, aliquam repellat quo, architecto ipsum, assumenda adipisci
+              cupiditate error velit!
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card_two" id="sec_two_two">
-        <div class="card_one_flex">
-        <h2>Photo gallery</h2>
-        <button id="second_two_btn" class="btn" onclick="SecondCloseDescription()">Open description.</button>
-      </div>
-        <div>
-          Lorem idivsum dolor sit amet consectetur adipisicing elit. Assumenda velit, eius aliquid sint ipsam ab mollitia reiciendis? Voluptatem, ipsum nobis ea laborum sit corporis accusamus harum rerum reiciendis a? Dolorum!
-        </div>
-        <div id="second_close">
-          <hr>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis deserunt saepe minus dolor tempore nulla dolorem alias in ex, aliquam repellat quo, architecto ipsum, assumenda adipisci cupiditate error velit!
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Third card section -->
-    <section>
+      <!-- Third card section -->
       <section class="first_card">
         <div class="card_one" id="sec_three_one">
           <div class="card_one_flex">
-          <h2>Section 2 page</h2>
-          <button id="third_one_btn" class="btn" onclick="thirdToggleDescription()">Open description.</button>
-        </div>
-          <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde facilis ab eum natus culpa earum, blanditiis, quo odio mollitia ducimus reiciendis nulla magnam. Ratione quod eius assumenda, voluptate eveniet dicta!
+            <h2>Website application</h2>
+            <button
+              id="third_one_btn"
+              class="btn"
+              onclick="thirdToggleDescription()"
+            >
+              Open description.
+            </button>
           </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+            facilis ab eum natus culpa earum, blanditiis, quo odio mollitia
+            ducimus reiciendis nulla magnam. Ratione quod eius assumenda,
+            voluptate eveniet dicta!
+          </p>
           <div id="third_description_one">
-            <hr>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis deserunt saepe minus dolor tempore nulla dolorem alias in ex, aliquam repellat quo, architecto ipsum, assumenda adipisci cupiditate error velit!
+            <hr />
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              officiis deserunt saepe minus dolor tempore nulla dolorem alias in
+              ex, aliquam repellat quo, architecto ipsum, assumenda adipisci
+              cupiditate error velit!
+            </p>
           </div>
         </div>
         <div class="card_two" id="sec_three_two">
           <div class="card_one_flex">
-          <h2>Photo gallery</h2>
-          <button id="third_two_btn" class="btn" onclick="thirdCloseDescription()">Open description.</button>
-        </div>
-          <div>
-            Lorem idivsum dolor sit amet consectetur adipisicing elit. Assumenda velit, eius aliquid sint ipsam ab mollitia reiciendis? Voluptatem, ipsum nobis ea laborum sit corporis accusamus harum rerum reiciendis a? Dolorum!
+            <h2>Carousel app</h2>
+            <button
+              id="third_two_btn"
+              class="btn"
+              onclick="thirdCloseDescription()"
+            >
+              Open description.
+            </button>
           </div>
+          <p class="text">
+            Lorem idivsum dolor sit amet consectetur adipisicing elit. Assumenda
+            velit, eius aliquid sint ipsam ab mollitia reiciendis? Voluptatem,
+            ipsum nobis ea laborum sit corporis accusamus harum rerum reiciendis
+            a? Dolorum!
+          </p>
           <div id="third_close">
-            <hr>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit officiis deserunt saepe minus dolor tempore nulla dolorem alias in ex, aliquam repellat quo, architecto ipsum, assumenda adipisci cupiditate error velit!
+            <hr />
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
+              officiis deserunt saepe minus dolor tempore nulla dolorem alias in
+              ex, aliquam repellat quo, architecto ipsum, assumenda adipisci
+              cupiditate error velit!
+            </p>
           </div>
         </div>
-    </section>
-  </div>
+      </section>
+    </div>
 
-  <!-- Footer section -->
-  <footer class="fa-3x">
-    <ul>
-      <li>
-        <a href="#">
-          <i 
-          class="fa-brands fa-facebook"
-          ></i>
-        </a></li>
-      <li>
-        <a href="#">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa-brands fa-youtube"></i>
-        </a>
-      </li>
-    </ul>
-  </footer>
-  <script src="/script/script.js"></script>
-</body>
+    <!-- Footer section -->
+    <footer class="fa-3x">
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="/script/script.js"></script>
+  </body>
 </html>
