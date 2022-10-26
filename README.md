@@ -1,4 +1,4 @@
-# Photo_gallery
+# Photo Gallery
 
 
 ## Summary.
