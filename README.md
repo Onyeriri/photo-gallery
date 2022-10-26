@@ -1,6 +1,5 @@
 # Photo_gallery
 
----
 
 ## Summary.
 
