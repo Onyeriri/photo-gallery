@@ -146,7 +146,7 @@ header > p {
 .card_two {
   width: 90%;
   height: 100%;
-  border: 2px solid #ffc800;
+  border: 2px solid #403f4c;
   border-radius: 20px;
   margin: 0 auto;
   background-repeat: non-repeat;
@@ -159,7 +159,14 @@ header > p {
   margin-top: 1em;
 }
 
-.first_card > div {
+.text a {
+  color: green;
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+.first_card > div,
+.projects {
   font-family: "Dosis", sans-serif;
   letter-spacing: 0.1em;
   font-size: 1.1em;
@@ -212,7 +219,7 @@ header > p {
 }
 
 .btn {
-  border: 2px solid #ffc800;
+  border: 2px solid #403f4c;
   border-radius: 10px;
   color: #fff;
   background-color: #7a7d7d;
@@ -282,12 +289,13 @@ footer > ul {
 
   .first_card > div {
     letter-spacing: 0.2em;
+    overflow: visible;
   }
 
   .card_one,
   .card_two {
     width: 45%;
-    height: 300px;
+    height: 380px;
     margin: 0;
   }
 
