@@ -176,28 +176,28 @@ header > p {
 
 /* section one card css rules */
 .card_one {
-  background-image: url("/images/pexels-hasan-albari-1229861.jpg");
+  background-image: url("https://onyeriri.github.io/images/pexels-hasan-albari-1229861.jpg");
 }
 
 .card_two {
   margin-top: 0.8em;
-  background-image: url("/images/dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg");
+  background-image: url("https://onyeriri.github.io/images/dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg");
 }
 
 #sec_two_one {
-  background-image: url("/images/download.jpg");
+  background-image: url("https://onyeriri.github.io/images/download.jpg");
 }
 
 #sec_two_two {
-  background-image: url("/images/download\ 2.jpg");
+  background-image: url("https://onyeriri.github.io/images/download\ 2.jpg");
 }
 
 #sec_three_one {
-  background-image: url("/images/download\ 3.jpg");
+  background-image: url("https://onyeriri.github.io/images/download\ 3.jpg");
 }
 
 #sec_three_two {
-  background-image: url("/images/download\ 4.jpg");
+  background-image: url("https://onyeriri.github.io/images/download\ 4.jpg");
 }
 
 .card_one,
