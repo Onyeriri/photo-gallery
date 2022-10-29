@@ -160,9 +160,10 @@ header > p {
 }
 
 .text a {
-  color: green;
+  color: #fff;
   font-size: 1.1em;
   display: inline-block;
+  font-size: 1.2em;
 }
 
 .first_card > div,
